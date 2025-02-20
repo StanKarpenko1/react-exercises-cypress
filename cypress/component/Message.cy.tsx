@@ -16,6 +16,7 @@ describe("Message Component", () => {
 
 // test for Message Page, different viewports included
 describe("Message Page", () => {
+  
   const viewports = ["macbook-15", "ipad-2", "iphone-6"]; 
 
   viewports.forEach((viewport: any) => {
