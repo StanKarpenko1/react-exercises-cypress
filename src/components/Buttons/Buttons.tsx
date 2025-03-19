@@ -1,11 +1,10 @@
 import { useState } from "react";
 import Alert from "../Alert/Alert";
-import GoHomeButton from "../GoHome"
 
 interface Props {
     children: string
     color?: 'primary' | 'secondary' | 'danger';
-    // onClick: () => void
+    onClick: () => void
 }
 
 const Buttons = ({children, color = "primary"}: Props) => {
@@ -20,7 +19,6 @@ const Buttons = ({children, color = "primary"}: Props) => {
             className={"btn btn-" + color} 
             onClick={() => setAlertVisible(!alertVisible)}> {children} </button>
         
-        <div> <GoHomeButton /> </div>
     </>
   )
 }
