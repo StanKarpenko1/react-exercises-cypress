@@ -10,6 +10,7 @@ const Home = () => {
         <li><Link to="/listGroup">List Group</Link></li>
         <li><Link to="/alert"> Alert </Link> </li>
         <li><Link to="/buttons"> Buttons </Link> </li>
+        <li><Link to="/like"> Like </Link> </li>
 
       </ul>
     </div>

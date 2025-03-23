@@ -1,9 +1,11 @@
 import { useState } from "react";
+import './ListGroup.css'
+// import styled from 'styled-components'
 
 interface Props {
   items: string[];
   heading: string; 
-  onSelectItem: (item: string) => void;
+  onSelectItem: (item: string) => void; 
 }
 
 function ListGroup({ items, heading, onSelectItem }: Props) {

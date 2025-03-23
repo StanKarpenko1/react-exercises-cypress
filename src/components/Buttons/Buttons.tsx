@@ -4,7 +4,7 @@ import Alert from "../Alert/Alert";
 interface Props {
     children: string
     color?: 'primary' | 'secondary' | 'danger';
-    onClick: () => void
+    onClick: () => void 
 }
 
 const Buttons = ({children, color = "primary"}: Props) => {

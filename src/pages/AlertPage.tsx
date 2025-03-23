@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Alert from "../components/Alert/Alert";
-import GoHomeButton from "../components/GoHome";
+import GoHomeButton from "../components/GoHome/GoHome";
 
 const AlertPage = () => {
   const [showAlert, setShowAlert] = useState(true);

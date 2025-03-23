@@ -3,8 +3,8 @@ import { ReactNode } from "react"
 
 interface Props {
     children: ReactNode
-    onClose?: () => void
-}
+    onClose?: () => void  
+} 
 
 const Alert = ({ children, onClose }: Props) => {
   return (
