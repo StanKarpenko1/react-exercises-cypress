@@ -2,7 +2,8 @@ import { useState } from "react";
 import Buttons from "../components/Buttons/Buttons";
 import Alert from "../components/Alert/Alert";
 import GoHomeButton from "../components/GoHome/GoHome";
-import styles from "./ButtonPage.module.css";
+import styles from "./ButtonPage.module.css"; 
+
 
 const ButtonsPage = () => {
   const [alertVisible, setAlertVisible] = useState(false);

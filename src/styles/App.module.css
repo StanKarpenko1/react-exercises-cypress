@@ -1,0 +1,14 @@
+.buttonGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: flex-start;
+  }
+
+.buttonGroup button {
+    width: 150px;        /* Equal size */
+    padding: 10px 16px;
+    font-size: 16px;
+    border-radius: 999px;
+  }

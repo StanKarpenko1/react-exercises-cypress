@@ -11,6 +11,7 @@ const Home = () => {
         <li><Link to="/alert"> Alert </Link> </li>
         <li><Link to="/buttons"> Buttons </Link> </li>
         <li><Link to="/like"> Like </Link> </li>
+        <li><Link to="/cart"> Clear Shoping Cart </Link> </li>
 
       </ul>
     </div>

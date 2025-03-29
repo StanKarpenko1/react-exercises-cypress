@@ -5,6 +5,7 @@ import ListGroupPage from "./pages/ListGroupPage";
 import AlertPage from "./pages/AlertPage";
 import ButtonsPage from "./pages/ButtonsPage";
 import LikePage from "./pages/LikePage";
+import CartAppPage from "./pages/CartAppPage";
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
         <Route path="/buttons" element={<ButtonsPage />} />
 
         <Route path="/like" element={<LikePage />} />
+
+        <Route path="/cart" element={<CartAppPage />} />
+
+
         
       </Routes>
     </Router>
