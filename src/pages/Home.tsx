@@ -12,6 +12,8 @@ const Home = () => {
         <li><Link to="/buttons"> Buttons </Link> </li>
         <li><Link to="/like"> Like </Link> </li>
         <li><Link to="/cart"> Clear Shoping Cart </Link> </li>
+        <li><Link to="/text-expand"> Expand Text </Link> </li>
+
 
       </ul>
     </div>

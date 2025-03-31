@@ -6,6 +6,7 @@ import AlertPage from "./pages/AlertPage";
 import ButtonsPage from "./pages/ButtonsPage";
 import LikePage from "./pages/LikePage";
 import CartAppPage from "./pages/CartAppPage";
+import TextExpandPage from "./pages/TextExpandPage";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
 
         <Route path="/cart" element={<CartAppPage />} />
 
+        <Route path="/text-expand" element={<TextExpandPage />} />
 
         
       </Routes>
