@@ -13,6 +13,8 @@ const Home = () => {
         <li><Link to="/like"> Like </Link> </li>
         <li><Link to="/cart"> Clear Shoping Cart </Link> </li>
         <li><Link to="/text-expand"> Expand Text </Link> </li>
+        <li><Link to="/form"> Form </Link> </li>
+
 
 
       </ul>
