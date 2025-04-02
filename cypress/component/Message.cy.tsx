@@ -1,7 +1,7 @@
 import React from "react";
 import { mount } from "cypress/react";
 import Message from "../../src/components/Message/Message";
-import MessagePage from "../../src/pages/MessagePage";
+import MessagePage from "../../src/pages/MessagePage"
 import { BrowserRouter } from "react-router-dom";
 
 
