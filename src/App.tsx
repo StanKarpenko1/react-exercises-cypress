@@ -8,6 +8,7 @@ import LikePage from "./pages/LikePage";
 import CartAppPage from "./pages/CartAppPage";
 import TextExpandPage from "./pages/TextExpandPage";
 import FormPage from "./pages/FormPage";
+import ExpenseTrackerPage from "./pages/ExpenseTrackerPage";
 
 function App() {
   return (
@@ -31,8 +32,8 @@ function App() {
 
         <Route path="/form" element={<FormPage />} />
 
+        <Route path="/expense-tracker" element={<ExpenseTrackerPage />} />
 
-        
       </Routes>
     </Router>
   );

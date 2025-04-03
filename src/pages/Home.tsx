@@ -14,8 +14,7 @@ const Home = () => {
         <li><Link to="/cart"> Clear Shoping Cart </Link> </li>
         <li><Link to="/text-expand"> Expand Text </Link> </li>
         <li><Link to="/form"> Form </Link> </li>
-
-
+        <li><Link to="/expense-tracker"> Expense Tracker </Link> </li>
 
       </ul>
     </div>
