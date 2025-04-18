@@ -3,8 +3,8 @@ import ExpenceList from "../components/expence-tracker/ExpenseList";
 import GoHomeButton from "../components/GoHome/GoHome";
 import ExpenceFilter from "../components/expence-tracker/ExpenceFilter";
 import ExpenceForm from "../components/expence-tracker/ExpenceForm";
+// import categories from "../components/expence-tracker/categories";
 
-export const categories = ["Groceries", "Utilities", "Entertainment"]
 
 const ExpenseTrackerPage = () => {
 
@@ -26,8 +26,9 @@ const ExpenseTrackerPage = () => {
   return (
     <div>
       <div className="mb-5">
-        <ExpenceForm />
+        <ExpenceForm onSubmit={expense => setExpenses([...expenses, {...expense, id: expenses.length + 1 }])}/>
       </div>
+
       <div className="mb-3">
         <ExpenceFilter onSelectCategory={(category) => setSelectedCat(category)}/>
       </div>

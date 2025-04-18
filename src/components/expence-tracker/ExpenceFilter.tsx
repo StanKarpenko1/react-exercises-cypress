@@ -1,4 +1,4 @@
-import { categories } from "../../pages/ExpenseTrackerPage";
+import  categories  from "../expence-tracker/categories";
 
 interface Props {
     onSelectCategory: (category: string) => void ; 
@@ -12,7 +12,7 @@ const ExpenceFilter = ({onSelectCategory}: Props) => {
        {categories.map(cat => 
         <option 
             key={cat} 
-            value = {cat}>
+            value = {cat}> 
                 {cat}
         </option>)}
 
