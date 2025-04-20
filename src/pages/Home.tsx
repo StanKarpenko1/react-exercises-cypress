@@ -15,6 +15,9 @@ const Home = () => {
         <li><Link to="/text-expand"> Expand Text </Link> </li>
         <li><Link to="/form"> Form </Link> </li>
         <li><Link to="/expense-tracker"> Expense Tracker </Link> </li>
+        <li><Link to="/product-list"> Product List </Link> </li>
+        <li><Link to="/users-list"> Users List </Link> </li>
+
 
       </ul>
     </div>

@@ -9,6 +9,8 @@ import CartAppPage from "./pages/CartAppPage";
 import TextExpandPage from "./pages/TextExpandPage";
 import FormPage from "./pages/FormPage";
 import ExpenseTrackerPage from "./pages/ExpenseTrackerPage";
+import ProductListPage from "./pages/ProductListPage";
+import UsersList from "./components/UsersList/UsersList";
 
 function App() {
   return (
@@ -33,6 +35,12 @@ function App() {
         <Route path="/form" element={<FormPage />} />
 
         <Route path="/expense-tracker" element={<ExpenseTrackerPage />} />
+
+        <Route path="/product-list" element={<ProductListPage />} />
+
+        <Route path="/users-list" element={<UsersList />} />
+
+
 
       </Routes>
     </Router>
