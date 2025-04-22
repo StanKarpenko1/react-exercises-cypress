@@ -1,3 +1,4 @@
+//#region imports
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import MessagePage from "./pages/MessagePage";
@@ -10,7 +11,8 @@ import TextExpandPage from "./pages/TextExpandPage";
 import FormPage from "./pages/FormPage";
 import ExpenseTrackerPage from "./pages/ExpenseTrackerPage";
 import ProductListPage from "./pages/ProductListPage";
-import UsersList from "./components/UsersList/UsersList";
+import UsersListPage from "./pages/UsersListPage";
+//#endregion imports
 
 function App() {
   return (
@@ -38,7 +40,7 @@ function App() {
 
         <Route path="/product-list" element={<ProductListPage />} />
 
-        <Route path="/users-list" element={<UsersList />} />
+        <Route path="/users-list" element={<UsersListPage />} />
 
 
 
