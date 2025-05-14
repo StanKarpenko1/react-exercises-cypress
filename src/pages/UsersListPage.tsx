@@ -3,9 +3,9 @@ import GoHomeButton from '../components/GoHome/GoHome'
 
 const UsersListPage = () => {
   return (
-    <>
+    <> 
         <UsersList />
-        <GoHomeButton />
+        <GoHomeButton />   
     </>
   )
 }
