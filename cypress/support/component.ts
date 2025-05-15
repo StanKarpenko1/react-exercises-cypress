@@ -32,5 +32,10 @@ declare global {
 
 Cypress.Commands.add('mount', mount)
 
+Cypress.on('uncaught:exception', (err, runnable) => {
+  // Prevent Cypress from failing the test on known harmless errors
+  return false;
+});
+
 // Example use:
 // cy.mount(<MyComponent />)

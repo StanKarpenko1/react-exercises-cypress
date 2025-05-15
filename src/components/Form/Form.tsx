@@ -36,7 +36,7 @@ const Form = () => {
       </div>
 
       <div className="mb-3">
-        <label htmlFor="" className="form-label">
+        <label htmlFor="age" className="form-label">
           Age
         </label>
         <input
