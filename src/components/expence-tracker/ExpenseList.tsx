@@ -5,7 +5,7 @@ interface Expense {
   category: string;
 }
 
-interface Props {
+interface Props { 
   expenses: Expense[];
   onDelete: (id: number) => void;
 }

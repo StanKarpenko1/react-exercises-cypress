@@ -31,7 +31,7 @@ const ExpenseTrackerPage = () => {
 
       <div className="mb-3">
         <ExpenceFilter onSelectCategory={(category) => setSelectedCat(category)}/>
-      </div>
+      </div> 
 
       <ExpenceList 
         expenses={visibleExpenses}  
